@@ -1,0 +1,157 @@
+ul {
+  margin: 0px;
+  list-style: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0px 16px 0px 16px;
+  background-color: rgb(233, 229, 236);
+  border-bottom: 1px solid rgb(199, 193, 193);
+}
+
+header > h1 {
+  margin: 0px;
+}
+
+header > section > button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(233, 229, 236);
+  margin-left: 10px;
+}
+
+main {
+  min-height: 100vh;
+  background-color: rgb(233, 229, 236);
+}
+
+.list {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list > li {
+  width: 265px;
+  height: 355px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  margin-right: 16px;
+  border-radius: 4px;
+}
+
+.list > li > img {
+  width: 120px;
+  height: 180px;
+}
+
+.list > li > button {
+  width: 230px;
+  height: 40px;
+  background-color: rgb(76, 126, 243);
+  color: aliceblue;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.cart {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 100px 0px 100px;
+}
+
+.cart-list > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  background-color: white;
+  border: 1px solid rgb(199, 193, 193);
+  width: 630px;
+}
+
+.cart-list > p {
+  font-size: 24px;
+  color: rgb(146, 143, 143);
+}
+
+.cart-list > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  border: 1px solid rgb(199, 193, 193);
+  padding: 16px 16px 16px 16px;
+  width: 630px;
+  min-height: 90px;
+}
+
+.cart-list > li > img {
+  width: 105px;
+  height: 145px;
+}
+
+.cart-list > li > p {
+  font-size: 11px;
+}
+
+.cart-list > li > section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+  height: 75px;
+}
+.cart-list > li > section > button {
+  border: none;
+  font-size: 10px;
+  background-color: white;
+  padding: 10px 0px 10px 4px;
+  color: rgb(146, 143, 143);
+  cursor: pointer;
+}
+
+.cart-info {
+  background-color: white;
+  border-radius: 4px;
+  width: 190px;
+  height: 160px;
+  padding: 16px 16px 75px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.cart-info > p {
+  margin: 0px;
+  font-weight: 700;
+}
+
+.cart-info > div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-info > div > p {
+  margin: 0px;
+}
+
+.cart-info > button {
+  width: 190px;
+  height: 35px;
+  background-color: rgb(76, 126, 243);
+  color: aliceblue;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
